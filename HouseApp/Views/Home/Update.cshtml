@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Update";
+}
+
+
+<div>
+    <h2>Update House</h2>
+    <form action="/api/update/house" method="post">
+        House ID:<input type="text" name="house_id" /><br />
+        House name:<input type="text" name="house_name" /><br />
+        <input type="submit" value="Update">
+    </form>
+</div>
+
+<div>
+    <h2>Update Device</h2>
+    <form action="/api/update/device" method="post">
+        Device ID:<input type="text" name="device_id" /><br />
+        Device name:<input type="text" name="device_name" /><br />
+        Device input:<input type="text" name="device_status" /><br />
+        What's House ID of this device:<input type="text" name="h_id" /><br />
+        <input type="submit" value="Update">
+    </form>
+</div>
+
+<div>
+    <h2>Update User</h2>
+    <form action="/api/update/user" method="post">
+        User ID:<input type="text" name="user_id" /><br />
+        User name:<input type="text" name="user_name" /><br />
+        What's House ID of this user: <input type="text" name="id_h" /><br />
+        <input type="submit" value="Update">
+    </form>
+</div>

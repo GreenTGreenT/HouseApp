@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete House</h2>
+<div>
+    <form action="/api/delete/house" method="post">
+        House ID:<input type="text" name="house_id" /><br />
+        <input type="submit" value="Delete">
+    </form>
+</div>
+
+<h2>Delete Device</h2>
+<div>
+    <form action="/api/delete/device" method="post">
+        Device ID:<input type="text" name="device_id" /><br />
+        <input type="submit" value="Delete">
+    </form>
+</div>
+
+<h2>Delete User</h2>
+<div>
+    <form action="/api/delete/user" method="post">
+        User ID:<input type="text" name="user_id" /><br />
+        <input type="submit" value="Delete">
+    </form>
+</div>
+
+
